@@ -1,0 +1,38 @@
+:root {
+    --white: #fff;
+    --bg-color: #191919;
+
+    --gray-100: #e1e1e6;
+    --gray-300: #808080;
+    --gray-400: #8d8d99;
+    --gray-500: #262626;
+    --gray-600: #323238;
+    --gray-700: #0D0D0D;
+    --gray-800: #202024;
+    --gray-900: #121214;   
+
+    --blue-dark: #1E6F9F;
+    --blue: #4EA8DE;
+    --purple: #8284FA;
+    --purple-dark: #5E60CE;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--white);
+    -webkit-font-smoothing: antialised;
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; 
+ }

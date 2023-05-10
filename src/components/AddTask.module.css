@@ -1,0 +1,60 @@
+.container {
+    height: 3.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+}
+
+form {
+    display: block;
+}
+
+.taskbar {
+    height: 3.375rem;
+}
+
+.taskbar input {
+    width: 39.875rem;
+    height: 3.375rem;
+
+    font-size: 1rem;
+
+    border: 0;
+
+    line-height: 1.4;
+
+    background: var(--gray-500);
+    color: var(--gray-300);
+
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.taskbar button[type=submit] {
+    border: 0;
+    border-radius: 8px;
+
+    padding: 1rem 1.5rem;
+
+    background: var(--blue-dark);
+    margin-left: 0.5rem;
+
+    color: var(--white);
+
+    font-weight: bold;
+    cursor: pointer;
+
+    vertical-align: middle;
+
+}
+
+.buttonContents {
+    display: flex;
+    align-items: center;
+}
+
+.buttonContents svg {
+    margin-left: .3rem;
+}
